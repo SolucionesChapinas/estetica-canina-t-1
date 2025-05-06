@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/* Para importar iconos de Font Awesome */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+:root {
+  --color-primary: #4a90e2;
+  --color-primary-light: #e3f2fd;
+  --color-primary-dark: #1565c0;
+  --color-secondary: #ff9800;
+  --color-accent: #ff5722;
+  --color-background: #ffffff;
+  --color-text: #333333;
+  --color-text-secondary: #666666;
+  --color-border: #eeeeee;
+  --color-success: #4caf50;
+  --color-error: #f44336;
+  --color-warning: #ffc107;
+  --color-info: #2196f3;
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  --transition-speed: 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+section {
+  padding: 5rem 1rem;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 1rem;
+  }
+
+  .section-header h2 {
+    font-size: 2rem;
+  }
+}
